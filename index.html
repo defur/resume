@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="paper">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tetiana Tkachova — Junior Frontend Developer</title>
+  <meta name="description" content="Portfolio von Tetiana Tkachova — Junior Frontend Developer mit Fokus auf JavaScript und Node.js. Baden-Württemberg, Deutschland.">
+  <meta name="theme-color" content="#f3f3ee">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230a0a0b'/%3E%3Ctext x='32' y='45' font-family='Arial,sans-serif' font-weight='800' font-size='38' fill='%23f3f3ee' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="swiss.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+  <div class="grain" aria-hidden="true"></div>
+  <a class="skip-link" href="#main" data-i18n="skip">Zum Inhalt springen</a>
+
+  <header class="site-head" id="siteHead">
+    <div class="site-head__inner">
+      <a class="brand" href="#top" aria-label="Tetiana Tkachova — Home">
+        <span class="brand-mark" aria-hidden="true">T</span>
+        <span class="brand-name">Tetiana&nbsp;Tkachova</span>
+      </a>
+
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a href="#experience" data-nav="experience" data-i18n="nav_exp">Erfahrung</a>
+        <a href="#education" data-nav="education" data-i18n="nav_edu">Ausbildung</a>
+        <a href="#projects" data-nav="projects" data-i18n="nav_projects">Projekte</a>
+        <a href="#certificates" data-nav="certificates" data-i18n="nav_certs">Zertifikate</a>
+        <a href="#skills" data-nav="skills" data-i18n="nav_skills">Kenntnisse</a>
+        <a href="#languages" data-nav="languages" data-i18n="nav_langs">Sprachen</a>
+        <a href="#contact" data-nav="contact" data-i18n="nav_contact">Kontakt</a>
+      </nav>
+
+      <div class="tools">
+        <div class="langs" role="group" aria-label="Sprache">
+          <button type="button" data-lang="de" class="is-active" aria-pressed="true">DE</button>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <button type="button" data-lang="ua" aria-pressed="false">UA</button>
+        </div>
+        <button class="theme" id="themeToggle" type="button" aria-label="Farbschema wechseln">
+          <svg class="ico ico--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="3.8"/>
+            <path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.4 5.4l1.5 1.5M17.1 17.1l1.5 1.5M18.6 5.4l-1.5 1.5M6.9 17.1l-1.5 1.5"/>
+          </svg>
+          <svg class="ico ico--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20.4 14.3A8.6 8.6 0 019.7 3.6a8.6 8.6 0 1010.7 10.7z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="top">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span><span data-i18n="eyebrow">Portfolio — 2026</span></p>
+
+          <h1 class="name">
+            <span class="name-line"><span>Tetiana</span></span>
+            <span class="name-line name-line--alt"><span><em>Tkachova</em></span></span>
+          </h1>
+
+          <p class="role" data-i18n="role">Junior Frontend-Entwicklerin</p>
+          <p class="deck" data-i18n="bio">Ich habe Computer Engineering in Odesa studiert und baue moderne, interaktive Webanwendungen. Am liebsten mit JavaScript — und mit einem Blick für die Details, die eine Oberfläche ruhig und selbstverständlich wirken lassen. Zuletzt habe ich in einem Salesforce-Bootcamp praktische Erfahrung gesammelt und vertiefe jetzt meine Frontend-Kenntnisse.</p>
+
+          <ul class="contact-list">
+            <li>
+              <a href="mailto:tktn78@gmail.com">
+                <span class="cl-label" data-i18n="contact_email">E-Mail</span>
+                <span class="cl-value">tktn78@gmail.com</span>
+                <span class="cl-arrow" aria-hidden="true">↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+491719296850">
+                <span class="cl-label" data-i18n="contact_phone">Telefon</span>
+                <span class="cl-value">+49 171 929 6850</span>
+                <span class="cl-arrow" aria-hidden="true">↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tktn/" target="_blank" rel="noopener">
+                <span class="cl-label">LinkedIn</span>
+                <span class="cl-value">in/tktn</span>
+                <span class="cl-arrow" aria-hidden="true">↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/defur" target="_blank" rel="noopener">
+                <span class="cl-label">GitHub</span>
+                <span class="cl-value">defur</span>
+                <span class="cl-arrow" aria-hidden="true">↗</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <figure class="portrait" data-reveal>
+          <div class="portrait-media" id="portraitMedia">
+            <img src="photo.jpg" alt="Tetiana Tkachova" width="960" height="1280">
+            <span class="portrait-fallback" aria-hidden="true">TT</span>
+            <span class="portrait-tag">Portfolio<br>2026</span>
+          </div>
+          <figcaption>
+            <span>Odesa → Baden-Württemberg</span>
+            <span>48.6° N / 9.0° E</span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="hero-foot">
+        <p class="status"><span class="status-dot" aria-hidden="true"></span><span data-i18n="availability">Offen für Junior-Frontend-Rollen</span></p>
+        <a class="scroll-link" href="#experience">
+          <span data-i18n="scroll">Scrollen</span>
+          <span class="scroll-line" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+
+    <div class="facts">
+      <div class="fact">
+        <span class="fact-num" data-cert-total>43</span>
+        <span class="fact-label" data-i18n="stat_certs">Zertifikate</span>
+      </div>
+      <div class="fact">
+        <span class="fact-num">03</span>
+        <span class="fact-label" data-i18n="stat_langs">Sprachen</span>
+      </div>
+      <div class="fact">
+        <span class="fact-num">01</span>
+        <span class="fact-label" data-i18n="stat_degrees">Abschluss</span>
+      </div>
+    </div>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>JavaScript</span><i>✳</i>
+          <span>Node.js</span><i>✳</i>
+          <span>REST APIs</span><i>✳</i>
+          <span>Express</span><i>✳</i>
+          <span>MongoDB</span><i>✳</i>
+          <span>HTML &amp; CSS</span><i>✳</i>
+          <span>Git</span><i>✳</i>
+          <span>UI Engineering</span><i>✳</i>
+        </div>
+        <div class="marquee-group">
+          <span>JavaScript</span><i>✳</i>
+          <span>Node.js</span><i>✳</i>
+          <span>REST APIs</span><i>✳</i>
+          <span>Express</span><i>✳</i>
+          <span>MongoDB</span><i>✳</i>
+          <span>HTML &amp; CSS</span><i>✳</i>
+          <span>Git</span><i>✳</i>
+          <span>UI Engineering</span><i>✳</i>
+        </div>
+      </div>
+    </div>
+
+    <div class="sections">
+
+      <section class="section" id="experience">
+        <div class="section-head">
+          <p class="section-index">01</p>
+          <h2 data-i18n="exp_title">Berufserfahrung</h2>
+          <p class="section-note" data-i18n="exp_note">Praktische Arbeit an Frontend und Backend — remote und im Team.</p>
+        </div>
+
+        <div class="section-body">
+          <article class="entry" data-reveal>
+            <div class="entry-meta">
+              <span class="entry-when">06.2026 — 10.2026</span>
+              <span class="entry-place" data-i18n="remote">Remote</span>
+            </div>
+            <div class="entry-main">
+              <h3 data-i18n="exp1_role">Trainee Developer</h3>
+              <p class="entry-org">Redtag <span aria-hidden="true">·</span> <span data-i18n="exp1_type">Salesforce Bootcamp</span></p>
+              <p class="entry-desc" data-i18n="exp1_desc">Salesforce-Development-Bootcamp im Engineering-Team: CRM-Automatisierung, Apex-Grundlagen und Arbeit mit der Plattform.</p>
+              <ul class="tags">
+                <li>Salesforce</li>
+                <li>Apex</li>
+                <li>CRM</li>
+              </ul>
+            </div>
+            <span class="entry-arrow" aria-hidden="true">↗</span>
+          </article>
+
+          <article class="entry" data-reveal>
+            <div class="entry-meta">
+              <span class="entry-when">02.2026 — 06.2026</span>
+              <span class="entry-place">Heilbronn</span>
+            </div>
+            <div class="entry-main">
+              <h3 data-i18n="exp2_role">Piscine Participant</h3>
+              <p class="entry-org">42 Heilbronn <span aria-hidden="true">·</span> <span data-i18n="exp2_type">Piscine</span></p>
+              <p class="entry-desc" data-i18n="exp2_desc">Intensives Peer-to-Peer-Programm der Coding School: C, Shell, Algorithmen und Projektarbeit unter Zeitdruck.</p>
+              <ul class="tags">
+                <li>C</li>
+                <li>Shell</li>
+                <li>Algorithms</li>
+              </ul>
+            </div>
+            <span class="entry-arrow" aria-hidden="true">↗</span>
+          </article>
+
+          <article class="entry" data-reveal>
+            <div class="entry-meta">
+              <span class="entry-when">05.2025 — 02.2026</span>
+              <span class="entry-place" data-i18n="remote">Remote</span>
+            </div>
+            <div class="entry-main">
+              <h3 data-i18n="exp3_role">Back End Developer</h3>
+              <p class="entry-org">Solvd, Inc.</p>
+              <p class="entry-desc" data-i18n="exp3_desc">Entwicklung und Wartung von RESTful APIs mit Node.js, Express und MongoDB als Grundlage für die Frontend-Funktionen.</p>
+              <ul class="tags">
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>REST</li>
+              </ul>
+            </div>
+            <span class="entry-arrow" aria-hidden="true">↗</span>
+          </article>
+
+          <article class="entry" data-reveal>
+            <div class="entry-meta">
+              <span class="entry-when">05.2025 — 07.2025</span>
+              <span class="entry-place" data-i18n="remote">Remote</span>
+            </div>
+            <div class="entry-main">
+              <h3 data-i18n="exp4_role">Frontend Trainee</h3>
+              <p class="entry-org">EPAM Systems <span aria-hidden="true">·</span> <span data-i18n="exp4_type">Scholarship Program</span></p>
+              <p class="entry-desc" data-i18n="exp4_desc">Stipendienbasiertes Trainingsprogramm mit Fokus auf Frontend: Webanwendungen mit JavaScript, HTML und CSS, Arbeit mit Git und Präsentation eigener Projekte.</p>
+              <ul class="tags">
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+              </ul>
+            </div>
+            <span class="entry-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="education">
+        <div class="section-head">
+          <p class="section-index">02</p>
+          <h2 data-i18n="edu_title">Ausbildung</h2>
+          <p class="section-note" data-i18n="edu_note">Computer Engineering mit Fokus auf Systeme und Netzwerke.</p>
+        </div>
+
+        <div class="section-body">
+          <article class="entry" data-reveal>
+            <div class="entry-meta">
+              <span class="entry-when">09.2020 — 07.2024</span>
+              <span class="entry-place" data-i18n="edu_place">Odesa, Ukraine</span>
+            </div>
+            <div class="entry-main">
+              <h3 data-i18n="edu1_role">Bachelorabschluss in Computer Engineering</h3>
+              <p class="entry-org">Odessa Polytechnic National University</p>
+              <p class="entry-desc" data-i18n="edu1_desc">Computer Engineering, Computersysteme und Netzwerke.</p>
+              <ul class="tags">
+                <li>Computer Engineering</li>
+                <li>Networks</li>
+                <li>Systems</li>
+              </ul>
+            </div>
+            <span class="entry-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-head">
+          <p class="section-index">03</p>
+          <h2 data-i18n="projects_title">Projekte</h2>
+          <p class="section-note" data-i18n="projects_note">Ausgewählte Arbeiten — Code und Live-Demos.</p>
+        </div>
+
+        <div class="section-body">
+          <div class="projects" data-reveal-group>
+            <article class="project" data-reveal>
+              <div class="project-meta">
+                <span>2026</span>
+                <span>React · Axios</span>
+              </div>
+              <h3><a href="https://github.com/defur/reactApp" target="_blank" rel="noopener">React Users App</a></h3>
+              <p data-i18n="proj1_desc">React-19-Oberfläche für eine Nutzerverwaltung: Daten aus einer API laden, Einträge anlegen, bearbeiten und löschen.</p>
+              <div class="project-links">
+                <a href="https://defur.github.io/reactApp/" target="_blank" rel="noopener">Live <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/defur/reactApp" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="project" data-reveal>
+              <div class="project-meta">
+                <span>2025</span>
+                <span>Node.js · MySQL</span>
+              </div>
+              <h3><a href="https://github.com/defur/NodeJS_Personal_Project" target="_blank" rel="noopener">University Admission Calculator</a></h3>
+              <p data-i18n="proj2_desc">Full-Stack-Anwendung zur Berechnung von Zulassungschancen — Node.js, Express, MySQL, JWT, Docker und automatisierte Tests.</p>
+              <div class="project-links">
+                <a href="https://github.com/defur/NodeJS_Personal_Project" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="project" data-reveal>
+              <div class="project-meta">
+                <span>2026</span>
+                <span>JavaScript · localStorage</span>
+              </div>
+              <h3><a href="https://github.com/defur/library-manager-app-test-task" target="_blank" rel="noopener">Library Manager</a></h3>
+              <p data-i18n="proj3_desc">Bibliotheksverwaltung im Browser: Bücher und Autor:innen anlegen, filtern und bearbeiten; die Daten bleiben via localStorage erhalten.</p>
+              <div class="project-links">
+                <a href="https://defur.github.io/library-manager-app-test-task/" target="_blank" rel="noopener">Live <span aria-hidden="true">↗</span></a>
+                <a href="https://github.com/defur/library-manager-app-test-task" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="project" data-reveal>
+              <div class="project-meta">
+                <span>2026</span>
+                <span>Salesforce DX · Apex</span>
+              </div>
+              <h3><a href="https://github.com/defur/Dream_Cars" target="_blank" rel="noopener">Dream Cars</a></h3>
+              <p data-i18n="proj4_desc">Salesforce-DX-Projekt mit Apex und Plattform-Metadaten — vom Datenmodell bis zur CRM-Logik.</p>
+              <div class="project-links">
+                <a href="https://github.com/defur/Dream_Cars" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="certificates">
+        <div class="section-head">
+          <p class="section-index">04</p>
+          <h2 data-i18n="certs_title">Zertifikate</h2>
+          <p class="section-note" data-i18n="certs_note">Ausgewählte Zertifikate aus Web, Cloud, Design und Kommunikation — als PDF mit Prüf-Link.</p>
+        </div>
+
+        <div class="section-body">
+          <div class="cert-gallery" data-cert-gallery>
+            <div class="cert-gallery__bar">
+              <p class="cert-gallery__note" data-i18n="certs_gallery_note">Acht PDFs — direkt im Browser ansehen oder verifizieren.</p>
+              <div class="cert-gallery__nav">
+                <span class="cert-gallery__count" aria-live="polite"><span data-cert-current>01</span> / <span data-cert-total-cards>08</span></span>
+                <button class="cert-gallery__btn" type="button" data-cert-prev data-i18n-aria="cert_prev" aria-label="Vorheriges Zertifikat">←</button>
+                <button class="cert-gallery__btn" type="button" data-cert-next data-i18n-aria="cert_next" aria-label="Nächstes Zertifikat">→</button>
+              </div>
+            </div>
+
+            <div class="cert-track" data-cert-track tabindex="0" role="region" aria-label="Zertifikatsgalerie" data-i18n-aria="certs_gallery_label" data-reveal-group>
+              <article class="cert-card" data-cert-card data-cert-item data-reveal
+                data-cert-title="Google IT Automation with Python"
+                data-cert-issuer="Google"
+                data-cert-date="2026-10-22"
+                data-cert-pdf="certificates/coursera-4KP0LT1307FM.pdf"
+                data-cert-verify="https://www.coursera.org/account/accomplishments/specialization/certificate/4KP0LT1307FM"
+                data-cert-verify-label="cert_verify">
+                <a class="cert-card__cover" href="certificates/coursera-4KP0LT1307FM.pdf" target="_blank" rel="noopener" data-cert-open aria-label="PDF: Google IT Automation with Python">
+                  <span class="cert-card__top"><span class="cert-card__num">01</span><span class="cert-card__format">PDF</span></span>
+                  <span class="cert-card__issuer">Google</span>
+                  <span class="cert-card__bottom"><span class="cert-card__kind" data-i18n="cert_kind_prof">Berufszertifikat</span><span class="cert-card__year">2026</span></span>
+                </a>
+                <div class="cert-card__body">
+                  <h3>Google IT Automation with Python</h3>
+                  <p class="cert-card__meta"><span>Coursera</span><span class="cert-card__date" data-cert-date="2026-10-22">22.10.2026</span></p>
+                  <div class="cert-card__actions">
+                    <a class="cert-card__action" href="certificates/coursera-4KP0LT1307FM.pdf" target="_blank" rel="noopener" data-cert-open data-i18n="cert_pdf">PDF ansehen</a>
+                    <a class="cert-card__action cert-card__action--quiet" href="https://www.coursera.org/account/accomplishments/specialization/certificate/4KP0LT1307FM" target="_blank" rel="noopener" data-i18n="cert_verify">Verifizieren ↗</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="cert-card" data-cert-card data-cert-item data-reveal
+                data-cert-title="Microsoft UX Design"
+                data-cert-issuer="Microsoft"
+                data-cert-date="2026-10-22"
+                data-cert-pdf="certificates/coursera-JYCDM5EPWMGE.pdf"
+                data-cert-verify="https://www.coursera.org/account/accomplishments/specialization/certificate/JYCDM5EPWMGE"
+                data-cert-verify-label="cert_verify">
+                <a class="cert-card__cover" href="certificates/coursera-JYCDM5EPWMGE.pdf" target="_blank" rel="noopener" data-cert-open aria-label="PDF: Microsoft UX Design">
+                  <span class="cert-card__top"><span class="cert-card__num">02</span><span class="cert-card__format">PDF</span></span>
+                  <span class="cert-card__issuer">Microsoft</span>
+                  <span class="cert-card__bottom"><span class="cert-card__kind" data-i18n="cert_kind_prof">Berufszertifikat</span><span class="cert-card__year">2026</span></span>
+                </a>
+                <div class="cert-card__body">
+                  <h3>Microsoft UX Design</h3>
+                  <p class="cert-card__meta"><span>Coursera</span><span class="cert-card__date" data-cert-date="2026-10-22">22.10.2026</span></p>
+                  <div class="cert-card__actions">
+                    <a class="cert-card__action" href="certificates/coursera-JYCDM5EPWMGE.pdf" target="_blank" rel="noopener" data-cert-open data-i18n="cert_pdf">PDF ansehen</a>
+                    <a class="cert-card__action cert-card__action--quiet" href="https://www.coursera.org/account/accomplishments/specialization/certificate/JYCDM5EPWMGE" target="_blank" rel="noopener" data-i18n="cert_verify">Verifizieren ↗</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="cert-card" data-cert-card data-cert-item data-reveal
+                data-cert-title="People &amp; Soft Skills: Essential for Professional Success"
+                data-cert-issuer="IBM"
+                data-cert-date="2026-10-19"
+                data-cert-pdf="certificates/coursera-VQCHZACTOWG7.pdf"
+                data-cert-verify="https://www.coursera.org/account/accomplishments/specialization/certificate/VQCHZACTOWG7"
+                data-cert-verify-label="cert_verify">
+                <a class="cert-card__cover" href="certificates/coursera-VQCHZACTOWG7.pdf" target="_blank" rel="noopener" data-cert-open aria-label="PDF: People &amp; Soft Skills">
+                  <span class="cert-card__top"><span class="cert-card__num">03</span><span class="cert-card__format">PDF</span></span>
+                  <span class="cert-card__issuer">IBM</span>
+                  <span class="cert-card__bottom"><span class="cert-card__kind" data-i18n="cert_kind_spec">Spezialisierung</span><span class="cert-card__year">2026</span></span>
+                </a>
+                <div class="cert-card__body">
+                  <h3>People &amp; Soft Skills: Essential for Professional Success</h3>
+                  <p class="cert-card__meta"><span>Coursera</span><span class="cert-card__date" data-cert-date="2026-10-19">19.10.2026</span></p>
+                  <div class="cert-card__actions">
+                    <a class="cert-card__action" href="certificates/coursera-VQCHZACTOWG7.pdf" target="_blank" rel="noopener" data-cert-open data-i18n="cert_pdf">PDF ansehen</a>
+                    <a class="cert-card__action cert-card__action--quiet" href="https://www.coursera.org/account/accomplishments/specialization/certificate/VQCHZACTOWG7" target="_blank" rel="noopener" data-i18n="cert_verify">Verifizieren ↗</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="cert-card" data-cert-card data-cert-item data-reveal
+                data-cert-title="Mastering Backend Development with Node.js"
+                data-cert-issuer="Edureka"
+                data-cert-date="2026-10-22"
+                data-cert-pdf="certificates/coursera-RHHCS1OG3QQS.pdf"
+                data-cert-verify="https://www.coursera.org/account/accomplishments/specialization/certificate/RHHCS1OG3QQS"
+                data-cert-verify-label="cert_verify">
+                <a class="cert-card__cover" href="certificates/coursera-RHHCS1OG3QQS.pdf" target="_blank" rel="noopener" data-cert-open aria-label="PDF: Mastering Backend Development with Node.js">
+                  <span class="cert-card__top"><span class="cert-card__num">04</span><span class="cert-card__format">PDF</span></span>
+                  <span class="cert-card__issuer">Edureka</span>
+                  <span class="cert-card__bottom"><span class="cert-card__kind" data-i18n="cert_kind_spec">Spezialisierung</span><span class="cert-card__year">2026</span></span>
+                </a>
+                <div class="cert-card__body">
+                  <h3>Mastering Backend Development with Node.js</h3>
+                  <p class="cert-card__meta"><span>Coursera</span><span class="cert-card__date" data-cert-date="2026-10-22">22.10.2026</span></p>
+                  <div class="cert-card__actions">
+                    <a class="cert-card__action" href="certificates/coursera-RHHCS1OG3QQS.pdf" target="_blank" rel="noopener" data-cert-open data-i18n="cert_pdf">PDF ansehen</a>
+                    <a class="cert-card__action cert-card__action--quiet" href="https://www.coursera.org/account/accomplishments/specialization/certificate/RHHCS1OG3QQS" target="_blank" rel="noopener" data-i18n="cert_verify">Verifizieren ↗</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="cert-card" data-cert-card data-cert-item data-reveal
+                data-cert-title="Software Engineering"
+                data-cert-issuer="The Hong Kong University of Science and Technology"
+                data-cert-date="2026-10-19"
+                data-cert-pdf="certificates/coursera-7WDJ4JLC5DGG.pdf"
+                data-cert-verify="https://www.coursera.org/account/accomplishments/specialization/certificate/7WDJ4JLC5DGG"
+                data-cert-verify-label="cert_verify">
+                <a class="cert-card__cover" href="certificates/coursera-7WDJ4JLC5DGG.pdf" target="_blank" rel="noopener" data-cert-open aria-label="PDF: Software Engineering">
+                  <span class="cert-card__top"><span class="cert-card__num">05</span><span class="cert-card__format">PDF</span></span>
+                  <span class="cert-card__issuer">HKUST</span>
+                  <span class="cert-card__bottom"><span class="cert-card__kind" data-i18n="cert_kind_spec">Spezialisierung</span><span class="cert-card__year">2026</span></span>
+                </a>
+                <div class="cert-card__body">
+                  <h3>Software Engineering</h3>
+                  <p class="cert-card__meta"><span>Coursera</span><span class="cert-card__date" data-cert-date="2026-10-19">19.10.2026</span></p>
+                  <div class="cert-card__actions">
+                    <a class="cert-card__action" href="certificates/coursera-7WDJ4JLC5DGG.pdf" target="_blank" rel="noopener" data-cert-open data-i18n="cert_pdf">PDF ansehen</a>
+                    <a class="cert-card__action cert-card__action--quiet" href="https://www.coursera.org/account/accomplishments/specialization/certificate/7WDJ4JLC5DGG" target="_blank" rel="noopener" data-i18n="cert_verify">Verifizieren ↗</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="cert-card" data-cert-card data-cert-item data-reveal
+                data-cert-title="Generative AI for Growth Marketing"
+                data-cert-issuer="Starweaver"
+                data-cert-date="2026-10-19"
+                data-cert-pdf="certificates/coursera-YY060UMG3S6D.pdf"
+                data-cert-verify="https://www.coursera.org/account/accomplishments/specialization/certificate/YY060UMG3S6D"
+                data-cert-verify-label="cert_verify">
+                <a class="cert-card__cover" href="certificates/coursera-YY060UMG3S6D.pdf" target="_blank" rel="noopener" data-cert-open aria-label="PDF: Generative AI for Growth Marketing">
+                  <span class="cert-card__top"><span class="cert-card__num">06</span><span class="cert-card__format">PDF</span></span>
+                  <span class="cert-card__issuer">Starweaver</span>
+                  <span class="cert-card__bottom"><span class="cert-card__kind" data-i18n="cert_kind_spec">Spezialisierung</span><span class="cert-card__year">2026</span></span>
+                </a>
+                <div class="cert-card__body">
+                  <h3>Generative AI for Growth Marketing</h3>
+                  <p class="cert-card__meta"><span>Coursera</span><span class="cert-card__date" data-cert-date="2026-10-19">19.10.2026</span></p>
+                  <div class="cert-card__actions">
+                    <a class="cert-card__action" href="certificates/coursera-YY060UMG3S6D.pdf" target="_blank" rel="noopener" data-cert-open data-i18n="cert_pdf">PDF ansehen</a>
+                    <a class="cert-card__action cert-card__action--quiet" href="https://www.coursera.org/account/accomplishments/specialization/certificate/YY060UMG3S6D" target="_blank" rel="noopener" data-i18n="cert_verify">Verifizieren ↗</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="cert-card" data-cert-card data-cert-item data-reveal
+                data-cert-title="EF SET English Certificate 68/100 (C1 Advanced)"
+                data-cert-issuer="EF SET"
+                data-cert-date="2024-12-01"
+                data-cert-pdf="certificates/efset-english-c1.pdf"
+                data-cert-verify="https://cert.efset.org/en/VpgNif"
+                data-cert-verify-label="cert_verify">
+                <a class="cert-card__cover" href="certificates/efset-english-c1.pdf" target="_blank" rel="noopener" data-cert-open aria-label="PDF: EF SET English Certificate 68/100 (C1 Advanced)">
+                  <span class="cert-card__top"><span class="cert-card__num">07</span><span class="cert-card__format">PDF</span></span>
+                  <span class="cert-card__issuer">EF SET</span>
+                  <span class="cert-card__bottom"><span class="cert-card__kind" data-i18n="cert_kind_lang">Sprachzertifikat</span><span class="cert-card__year">2024</span></span>
+                </a>
+                <div class="cert-card__body">
+                  <h3>EF SET English Certificate 68/100 (C1 Advanced)</h3>
+                  <p class="cert-card__meta"><span>EF SET</span><span class="cert-card__date" data-cert-date="2024-12-01">01.12.2024</span></p>
+                  <div class="cert-card__actions">
+                    <a class="cert-card__action" href="certificates/efset-english-c1.pdf" target="_blank" rel="noopener" data-cert-open data-i18n="cert_pdf">PDF ansehen</a>
+                    <a class="cert-card__action cert-card__action--quiet" href="https://cert.efset.org/en/VpgNif" target="_blank" rel="noopener" data-i18n="cert_verify">Verifizieren ↗</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="cert-card" data-cert-card data-cert-item data-reveal
+                data-cert-title="Genesis QA Guide"
+                data-cert-issuer="Genesis Tech"
+                data-cert-date="2024-12-02"
+                data-cert-pdf="certificates/genesis-qa-guide.pdf"
+                data-cert-verify="https://cdn.strum.education/certificates/3ee5705f-dfcd-4f15-bb65-6e2523f34ca9.pdf"
+                data-cert-verify-label="cert_original">
+                <a class="cert-card__cover" href="certificates/genesis-qa-guide.pdf" target="_blank" rel="noopener" data-cert-open aria-label="PDF: Genesis QA Guide">
+                  <span class="cert-card__top"><span class="cert-card__num">08</span><span class="cert-card__format">PDF</span></span>
+                  <span class="cert-card__issuer">Genesis</span>
+                  <span class="cert-card__bottom"><span class="cert-card__kind" data-i18n="cert_kind_course">Kurs</span><span class="cert-card__year">2024</span></span>
+                </a>
+                <div class="cert-card__body">
+                  <h3>Genesis QA Guide</h3>
+                  <p class="cert-card__meta"><span>Genesis Tech</span><span class="cert-card__date" data-cert-date="2024-12-02">02.12.2024</span></p>
+                  <div class="cert-card__actions">
+                    <a class="cert-card__action" href="certificates/genesis-qa-guide.pdf" target="_blank" rel="noopener" data-cert-open data-i18n="cert_pdf">PDF ansehen</a>
+                    <a class="cert-card__action cert-card__action--quiet" href="https://cdn.strum.education/certificates/3ee5705f-dfcd-4f15-bb65-6e2523f34ca9.pdf" target="_blank" rel="noopener" data-i18n="cert_original">Original ↗</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <details class="cert-courses" data-reveal>
+            <summary>
+              <span class="cert-courses__title" data-i18n="certs_modules_title">Modulnachweise</span>
+              <span class="cert-courses__meta"><span data-cert-modules-total>28</span> <span data-i18n="certs_modules_unit">Kurse</span></span>
+              <span class="cert-courses__mark" aria-hidden="true"></span>
+            </summary>
+            <p class="cert-courses__note" data-i18n="certs_modules_note">Einzelkurse aus den oben genannten Programmen — jeweils als PDF mit Prüf-Link.</p>
+            <div class="cert-course-list">
+              <article class="cert-course" data-cert-item data-cert-title="UX Design in Practice: Accessibility and Collaboration" data-cert-issuer="Microsoft" data-cert-date="2026-10-22" data-cert-pdf="certificates/coursera-0LXVGAQMS5TP.pdf" data-cert-verify="https://www.coursera.org/verify/0LXVGAQMS5TP" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-22">22.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>UX Design in Practice: Accessibility and Collaboration</h3>
+                  <p class="cert-course__org">Microsoft <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-0LXVGAQMS5TP.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/0LXVGAQMS5TP" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Designing for User Experience" data-cert-issuer="Microsoft" data-cert-date="2026-10-22" data-cert-pdf="certificates/coursera-AE7BK44OYQ73.pdf" data-cert-verify="https://www.coursera.org/verify/AE7BK44OYQ73" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-22">22.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Designing for User Experience</h3>
+                  <p class="cert-course__org">Microsoft <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-AE7BK44OYQ73.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/AE7BK44OYQ73" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Building Backend APIs with Node.js and Express" data-cert-issuer="Edureka" data-cert-date="2026-10-22" data-cert-pdf="certificates/coursera-CJH5YB2HFZKL.pdf" data-cert-verify="https://www.coursera.org/verify/CJH5YB2HFZKL" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-22">22.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Building Backend APIs with Node.js and Express</h3>
+                  <p class="cert-course__org">Edureka <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-CJH5YB2HFZKL.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/CJH5YB2HFZKL" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="User Interface Design and Prototyping" data-cert-issuer="Microsoft" data-cert-date="2026-10-22" data-cert-pdf="certificates/coursera-HOO48873M0JY.pdf" data-cert-verify="https://www.coursera.org/verify/HOO48873M0JY" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-22">22.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>User Interface Design and Prototyping</h3>
+                  <p class="cert-course__org">Microsoft <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-HOO48873M0JY.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/HOO48873M0JY" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Fundamentals of UI/UX Design" data-cert-issuer="Microsoft" data-cert-date="2026-10-22" data-cert-pdf="certificates/coursera-KJLVUGJLHSYN.pdf" data-cert-verify="https://www.coursera.org/verify/KJLVUGJLHSYN" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-22">22.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Fundamentals of UI/UX Design</h3>
+                  <p class="cert-course__org">Microsoft <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-KJLVUGJLHSYN.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/KJLVUGJLHSYN" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Securing and Testing Node.js Applications" data-cert-issuer="Edureka" data-cert-date="2026-10-22" data-cert-pdf="certificates/coursera-UJUOXEJXNDIT.pdf" data-cert-verify="https://www.coursera.org/verify/UJUOXEJXNDIT" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-22">22.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Securing and Testing Node.js Applications</h3>
+                  <p class="cert-course__org">Edureka <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-UJUOXEJXNDIT.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/UJUOXEJXNDIT" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Accelerate Your Job Search with AI" data-cert-issuer="Google" data-cert-date="2026-10-22" data-cert-pdf="certificates/coursera-V15RTUBB1YWY.pdf" data-cert-verify="https://www.coursera.org/verify/V15RTUBB1YWY" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-22">22.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Accelerate Your Job Search with AI</h3>
+                  <p class="cert-course__org">Google <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-V15RTUBB1YWY.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/V15RTUBB1YWY" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Getting Started with Node.js" data-cert-issuer="Edureka" data-cert-date="2026-10-22" data-cert-pdf="certificates/coursera-W50WQBWLHLNQ.pdf" data-cert-verify="https://www.coursera.org/verify/W50WQBWLHLNQ" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-22">22.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Getting Started with Node.js</h3>
+                  <p class="cert-course__org">Edureka <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-W50WQBWLHLNQ.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/W50WQBWLHLNQ" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Crash Course on Python" data-cert-issuer="Google" data-cert-date="2026-10-21" data-cert-pdf="certificates/coursera-LPBVNDOLWP94.pdf" data-cert-verify="https://www.coursera.org/verify/LPBVNDOLWP94" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-21">21.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Crash Course on Python</h3>
+                  <p class="cert-course__org">Google <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-LPBVNDOLWP94.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/LPBVNDOLWP94" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Automating Real-World Tasks with Python" data-cert-issuer="Google" data-cert-date="2026-10-21" data-cert-pdf="certificates/coursera-SZVMH3L6D063.pdf" data-cert-verify="https://www.coursera.org/verify/SZVMH3L6D063" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-21">21.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Automating Real-World Tasks with Python</h3>
+                  <p class="cert-course__org">Google <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-SZVMH3L6D063.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/SZVMH3L6D063" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Software Engineering: Software Design and Project Management" data-cert-issuer="HKUST" data-cert-date="2026-10-19" data-cert-pdf="certificates/coursera-1NFD64E1GXVS.pdf" data-cert-verify="https://www.coursera.org/verify/1NFD64E1GXVS" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-19">19.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Software Engineering: Software Design and Project Management</h3>
+                  <p class="cert-course__org">HKUST <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-1NFD64E1GXVS.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/1NFD64E1GXVS" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Solving Problems with Creative and Critical Thinking" data-cert-issuer="IBM" data-cert-date="2026-10-19" data-cert-pdf="certificates/coursera-AIWM7BO3EQX6.pdf" data-cert-verify="https://www.coursera.org/verify/AIWM7BO3EQX6" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-19">19.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Solving Problems with Creative and Critical Thinking</h3>
+                  <p class="cert-course__org">IBM <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-AIWM7BO3EQX6.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/AIWM7BO3EQX6" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Configuration Management and the Cloud" data-cert-issuer="Google" data-cert-date="2026-10-19" data-cert-pdf="certificates/coursera-DOVL3Y3OB0QW.pdf" data-cert-verify="https://www.coursera.org/verify/DOVL3Y3OB0QW" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-19">19.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Configuration Management and the Cloud</h3>
+                  <p class="cert-course__org">Google <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-DOVL3Y3OB0QW.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/DOVL3Y3OB0QW" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Grow with AI: Your AI-driven Growth Marketing strategy" data-cert-issuer="Starweaver" data-cert-date="2026-10-19" data-cert-pdf="certificates/coursera-EHY3Q3XLZP3K.pdf" data-cert-verify="https://www.coursera.org/verify/EHY3Q3XLZP3K" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-19">19.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Grow with AI: Your AI-driven Growth Marketing strategy</h3>
+                  <p class="cert-course__org">Starweaver <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-EHY3Q3XLZP3K.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/EHY3Q3XLZP3K" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Using Python to Interact with the Operating System" data-cert-issuer="Google" data-cert-date="2026-10-19" data-cert-pdf="certificates/coursera-FVKMY58M5TFC.pdf" data-cert-verify="https://www.coursera.org/verify/FVKMY58M5TFC" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-19">19.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Using Python to Interact with the Operating System</h3>
+                  <p class="cert-course__org">Google <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-FVKMY58M5TFC.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/FVKMY58M5TFC" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Generative AI: Introduction and Applications" data-cert-issuer="IBM" data-cert-date="2026-10-19" data-cert-pdf="certificates/coursera-KRB5KIOXUKTN.pdf" data-cert-verify="https://www.coursera.org/verify/KRB5KIOXUKTN" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-19">19.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Generative AI: Introduction and Applications</h3>
+                  <p class="cert-course__org">IBM <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-KRB5KIOXUKTN.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/KRB5KIOXUKTN" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Troubleshooting and Debugging Techniques" data-cert-issuer="Google" data-cert-date="2026-10-19" data-cert-pdf="certificates/coursera-N99LI01LVITM.pdf" data-cert-verify="https://www.coursera.org/verify/N99LI01LVITM" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-19">19.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Troubleshooting and Debugging Techniques</h3>
+                  <p class="cert-course__org">Google <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-N99LI01LVITM.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/N99LI01LVITM" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Software Engineering: Implementation and Testing" data-cert-issuer="HKUST" data-cert-date="2026-10-19" data-cert-pdf="certificates/coursera-PEGIEEXWZ9B5.pdf" data-cert-verify="https://www.coursera.org/verify/PEGIEEXWZ9B5" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-19">19.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Software Engineering: Implementation and Testing</h3>
+                  <p class="cert-course__org">HKUST <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-PEGIEEXWZ9B5.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/PEGIEEXWZ9B5" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Collaborate Effectively for Professional Success" data-cert-issuer="IBM" data-cert-date="2026-10-18" data-cert-pdf="certificates/coursera-QZUERHFZAWSB.pdf" data-cert-verify="https://www.coursera.org/verify/QZUERHFZAWSB" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-18">18.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Collaborate Effectively for Professional Success</h3>
+                  <p class="cert-course__org">IBM <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-QZUERHFZAWSB.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/QZUERHFZAWSB" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="People and Soft Skills Assessment" data-cert-issuer="IBM" data-cert-date="2026-10-16" data-cert-pdf="certificates/coursera-JGIQ9YNNQSGH.pdf" data-cert-verify="https://www.coursera.org/verify/JGIQ9YNNQSGH" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-16">16.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>People and Soft Skills Assessment</h3>
+                  <p class="cert-course__org">IBM <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-JGIQ9YNNQSGH.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/JGIQ9YNNQSGH" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Delivering Quality Work with Agility" data-cert-issuer="IBM" data-cert-date="2026-10-16" data-cert-pdf="certificates/coursera-RR53I2MZ24UU.pdf" data-cert-verify="https://www.coursera.org/verify/RR53I2MZ24UU" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-16">16.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Delivering Quality Work with Agility</h3>
+                  <p class="cert-course__org">IBM <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-RR53I2MZ24UU.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/RR53I2MZ24UU" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Software Engineering: Modeling Software Systems using UML" data-cert-issuer="HKUST" data-cert-date="2026-10-16" data-cert-pdf="certificates/coursera-TGVL7WUSKD9O.pdf" data-cert-verify="https://www.coursera.org/verify/TGVL7WUSKD9O" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-16">16.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Software Engineering: Modeling Software Systems using UML</h3>
+                  <p class="cert-course__org">HKUST <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-TGVL7WUSKD9O.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/TGVL7WUSKD9O" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Introduction to Git and GitHub" data-cert-issuer="Google" data-cert-date="2026-10-16" data-cert-pdf="certificates/coursera-XAS411P0DC3L.pdf" data-cert-verify="https://www.coursera.org/verify/XAS411P0DC3L" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-16">16.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Introduction to Git and GitHub</h3>
+                  <p class="cert-course__org">Google <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-XAS411P0DC3L.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/XAS411P0DC3L" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Present with Purpose: Create/Deliver Effective Presentations" data-cert-issuer="IBM" data-cert-date="2026-10-16" data-cert-pdf="certificates/coursera-XTGEPK7CIE2A.pdf" data-cert-verify="https://www.coursera.org/verify/XTGEPK7CIE2A" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-16">16.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Present with Purpose: Create/Deliver Effective Presentations</h3>
+                  <p class="cert-course__org">IBM <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-XTGEPK7CIE2A.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/XTGEPK7CIE2A" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Developing Interpersonal Skills" data-cert-issuer="IBM" data-cert-date="2026-10-12" data-cert-pdf="certificates/coursera-01LJB5XW1MNA.pdf" data-cert-verify="https://www.coursera.org/verify/01LJB5XW1MNA" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-10-12">12.10.2026</span>
+                <div class="cert-course__main">
+                  <h3>Developing Interpersonal Skills</h3>
+                  <p class="cert-course__org">IBM <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-01LJB5XW1MNA.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/01LJB5XW1MNA" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Generative AI: Prompt Engineering Basics" data-cert-issuer="IBM" data-cert-date="2026-09-29" data-cert-pdf="certificates/coursera-SG7EIA79HQDK.pdf" data-cert-verify="https://www.coursera.org/verify/SG7EIA79HQDK" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2026-09-29">29.09.2026</span>
+                <div class="cert-course__main">
+                  <h3>Generative AI: Prompt Engineering Basics</h3>
+                  <p class="cert-course__org">IBM <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-SG7EIA79HQDK.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/SG7EIA79HQDK" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="Introduction to CSS3" data-cert-issuer="Johns Hopkins University" data-cert-date="2024-12-19" data-cert-pdf="certificates/coursera-COPXOCBYGG35.pdf" data-cert-verify="https://www.coursera.org/verify/COPXOCBYGG35" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2024-12-19">19.12.2024</span>
+                <div class="cert-course__main">
+                  <h3>Introduction to CSS3</h3>
+                  <p class="cert-course__org">Johns Hopkins University <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-COPXOCBYGG35.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/COPXOCBYGG35" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+              <article class="cert-course" data-cert-item data-cert-title="HTML, CSS, and Javascript for Web Developers" data-cert-issuer="Johns Hopkins University" data-cert-date="2024-12-13" data-cert-pdf="certificates/coursera-DLG181IX30N0.pdf" data-cert-verify="https://www.coursera.org/verify/DLG181IX30N0" data-cert-verify-label="cert_verify_short">
+                <span class="cert-course__date" data-cert-date="2024-12-13">13.12.2024</span>
+                <div class="cert-course__main">
+                  <h3>HTML, CSS, and Javascript for Web Developers</h3>
+                  <p class="cert-course__org">Johns Hopkins University <span>Coursera</span></p>
+                </div>
+                <div class="cert-course__links">
+                  <a href="certificates/coursera-DLG181IX30N0.pdf" target="_blank" rel="noopener" data-cert-open data-i18n-aria="cert_pdf" aria-label="PDF ansehen">PDF</a>
+                  <a href="https://www.coursera.org/verify/DLG181IX30N0" target="_blank" rel="noopener" data-i18n="cert_verify_short">Prüfen ↗</a>
+                </div>
+              </article>
+            </div>
+          </details>
+
+          <div class="cert-more" data-reveal>
+            <div class="cert-more__head">
+              <h3 data-i18n="certs_more_title">Weitere Nachweise</h3>
+              <p data-i18n="certs_more_note">Ohne öffentlichen Prüf-Link — Nachweis auf Anfrage.</p>
+            </div>
+            <div class="cert-list" data-reveal-group>
+              <article class="cert" data-cert-item data-reveal>
+                <span class="cert-year">2026</span>
+                <h3>Salesforce Development Certificate</h3>
+                <p class="cert-org">Redtag</p>
+                <span class="cert-status" data-i18n="cert_on_request">Auf Anfrage</span>
+              </article>
+              <article class="cert" data-cert-item data-reveal>
+                <span class="cert-year">2026</span>
+                <h3>TOEFL iBT — Home Edition</h3>
+                <p class="cert-org">ETS</p>
+                <span class="cert-status" data-i18n="cert_on_request">Auf Anfrage</span>
+              </article>
+              <article class="cert" data-cert-item data-reveal>
+                <span class="cert-year">2025</span>
+                <h3>Beginner JavaScript</h3>
+                <p class="cert-org">EPAM Systems</p>
+                <span class="cert-status" data-i18n="cert_on_request">Auf Anfrage</span>
+              </article>
+              <article class="cert" data-cert-item data-reveal>
+                <span class="cert-year">2024</span>
+                <h3>Introduction to Deep Learning</h3>
+                <p class="cert-org">Anhalt University</p>
+                <span class="cert-status" data-i18n="cert_on_request">Auf Anfrage</span>
+              </article>
+              <article class="cert" data-cert-item data-reveal>
+                <span class="cert-year">2023</span>
+                <h3>ICT Security</h3>
+                <p class="cert-org">Anhalt University</p>
+                <span class="cert-status" data-i18n="cert_on_request">Auf Anfrage</span>
+              </article>
+              <article class="cert" data-cert-item data-reveal>
+                <span class="cert-year">2023</span>
+                <h3>Creating Mobile Apps with Android</h3>
+                <p class="cert-org">Anhalt University</p>
+                <span class="cert-status" data-i18n="cert_on_request">Auf Anfrage</span>
+              </article>
+              <article class="cert" data-cert-item data-reveal>
+                <span class="cert-year">2023</span>
+                <h3>Machine Learning with Python</h3>
+                <p class="cert-org">Anhalt University</p>
+                <span class="cert-status" data-i18n="cert_on_request">Auf Anfrage</span>
+              </article>
+            </div>
+          </div>
+
+
+
+          <dialog class="cert-dialog" id="certDialog" aria-labelledby="certDialogTitle">
+            <div class="cert-dialog__shell">
+              <div class="cert-dialog__head">
+                <div>
+                  <p class="cert-dialog__kicker" data-i18n="cert_viewer">Zertifikat</p>
+                  <h3 id="certDialogTitle"></h3>
+                  <p class="cert-dialog__meta" id="certDialogMeta"></p>
+                </div>
+                <button class="cert-dialog__close" type="button" data-cert-close data-i18n-aria="cert_close" aria-label="Schließen">×</button>
+              </div>
+              <div class="cert-dialog__frame">
+                <iframe id="certFrame" title="Zertifikat PDF" data-i18n-title="cert_viewer" loading="lazy"></iframe>
+              </div>
+              <div class="cert-dialog__foot">
+                <a id="certDialogOpen" href="#" target="_blank" rel="noopener" data-i18n="cert_new_tab">In neuem Tab öffnen ↗</a>
+                <a id="certDialogDownload" href="#" download data-i18n="cert_download">PDF herunterladen</a>
+                <a id="certDialogVerify" href="#" target="_blank" rel="noopener" data-i18n="cert_verify">Verifizieren ↗</a>
+              </div>
+            </div>
+          </dialog>
+        </div>
+      </section>
+
+    <section class="section" id="skills">
+        <div class="section-head">
+          <p class="section-index">05</p>
+          <h2 data-i18n="skills_title">Kenntnisse</h2>
+          <p class="section-note" data-i18n="skills_note">Werkzeuge und Technologien, mit denen ich täglich arbeite.</p>
+        </div>
+
+        <div class="section-body">
+          <div class="skills" data-reveal-group>
+            <article class="skill" data-reveal>
+              <span class="skill-idx">01</span>
+              <h3>JavaScript</h3>
+              <p>ES2023 · DOM · async patterns</p>
+            </article>
+            <article class="skill" data-reveal>
+              <span class="skill-idx">02</span>
+              <h3>HTML &amp; CSS</h3>
+              <p>Semantic markup · modern layout</p>
+            </article>
+            <article class="skill" data-reveal>
+              <span class="skill-idx">03</span>
+              <h3>Node.js</h3>
+              <p>Express · REST · MongoDB</p>
+            </article>
+            <article class="skill" data-reveal>
+              <span class="skill-idx">04</span>
+              <h3>Git &amp; GitHub</h3>
+              <p>Branching · reviews · CI basics</p>
+            </article>
+            <article class="skill" data-reveal>
+              <span class="skill-idx">05</span>
+              <h3>REST APIs</h3>
+              <p>Design · integration · testing</p>
+            </article>
+            <article class="skill" data-reveal>
+              <span class="skill-idx">06</span>
+              <h3 data-i18n="skill_db">Datenbankentwicklung</h3>
+              <p>MongoDB · SQL fundamentals</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="languages">
+        <div class="section-head">
+          <p class="section-index">06</p>
+          <h2 data-i18n="langs_title">Sprachen</h2>
+          <p class="section-note" data-i18n="langs_note">Deutsch für den Alltag, Englisch für die Arbeit, Ukrainisch für alles andere.</p>
+        </div>
+
+        <div class="section-body">
+          <div class="lang-list">
+            <div class="lang-row" data-reveal>
+              <span class="lang-name" data-i18n="lang_de">Deutsch</span>
+              <span class="lang-level">B2</span>
+              <span class="ticks" aria-hidden="true"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span></span></span>
+            </div>
+            <div class="lang-row" data-reveal>
+              <span class="lang-name" data-i18n="lang_en">Englisch</span>
+              <span class="lang-level">C1</span>
+              <span class="ticks" aria-hidden="true"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span></span>
+            </div>
+            <div class="lang-row" data-reveal>
+              <span class="lang-name" data-i18n="lang_ua">Ukrainisch</span>
+              <span class="lang-level" data-i18n="lang_native">Muttersprache</span>
+              <span class="ticks" aria-hidden="true"><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span><span class="on"></span></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      </div>
+  </main>
+
+  <footer class="site-foot" id="contact">
+    <div class="foot-inner">
+      <p class="eyebrow eyebrow--light"><span class="eyebrow-mark" aria-hidden="true"></span><span data-i18n="foot_kicker">Kontakt — 07</span></p>
+
+      <h2 class="foot-title">
+        <span data-i18n="foot_line1">Lass uns</span>
+        <em data-i18n="foot_line2">sprechen.</em>
+      </h2>
+
+      <a class="foot-mail" href="mailto:tktn78@gmail.com">
+        <span>tktn78@gmail.com</span>
+        <span aria-hidden="true">↗</span>
+      </a>
+
+      <p class="foot-note" data-i18n="foot_note">Ich freue mich über Nachrichten zu Junior-Frontend-Rollen, Praktika oder einem Kaffee.</p>
+
+      <div class="foot-grid">
+        <div>
+          <p class="foot-label" data-i18n="foot_loc_label">Standort</p>
+          <p class="foot-value" data-i18n="foot_loc_value">Baden-Württemberg, Deutschland</p>
+        </div>
+        <div>
+          <p class="foot-label" data-i18n="foot_avail_label">Verfügbarkeit</p>
+          <p class="foot-value" data-i18n="foot_avail_value">Offen für Junior-Rollen und Praktika</p>
+        </div>
+        <div>
+          <p class="foot-label" data-i18n="foot_links_label">Links</p>
+          <a class="foot-link" href="https://github.com/defur" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="foot-link" href="https://www.linkedin.com/in/tktn/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="foot-bottom">
+        <span>© 2026 Tetiana Tkachova</span>
+        <span class="clock"><span data-i18n="clock_label">Ortszeit</span> — <time id="clock">00:00</time></span>
+        <a class="foot-top" href="#top"><span data-i18n="back_top">Nach oben</span> <span aria-hidden="true">↑</span></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
